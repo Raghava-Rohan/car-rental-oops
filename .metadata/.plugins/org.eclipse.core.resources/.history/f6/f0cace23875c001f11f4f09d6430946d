@@ -1,0 +1,20 @@
+public class Car {
+	private String carId;
+	private String model;
+	private String brand;
+	private String type;
+	private double basePricePerDay;
+	private boolean isAvailable;
+
+	public Car(String carId, String model, String brand, String type, double basePricePerDay) {
+		this.carId = carId;
+		this.model = model;
+		this.brand = brand;
+		this.type = type;
+		this.basePricePerDay = basePricePerDay;
+		this.isAvailable = true;
+	}
+	
+	
+
+}
